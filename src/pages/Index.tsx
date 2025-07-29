@@ -1,12 +1,22 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import CelebrityClients from "@/components/CelebrityClients";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      {/* Hero Section */}
+      <section className="min-h-screen flex items-center justify-center bg-gradient-luxury relative">
+        <div className="text-center text-white z-10">
+          <h1 className="text-6xl font-bold mb-6 tracking-tight">
+            Premium <span className="bg-gradient-gold bg-clip-text text-transparent">Creative</span> Studio
+          </h1>
+          <p className="text-xl text-luxury-platinum max-w-2xl mx-auto leading-relaxed">
+            Where artistry meets excellence. We create visual masterpieces for the world's most distinguished clients.
+          </p>
+        </div>
+      </section>
+
+      {/* Celebrity Clients Section */}
+      <CelebrityClients />
     </div>
   );
 };

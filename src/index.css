@@ -36,7 +36,24 @@ All colors MUST be HSL.
     --input: 214.3 31.8% 91.4%;
     --ring: 222.2 84% 4.9%;
 
-    --radius: 0.5rem;
+    /* Luxury Design System */
+    --luxury-gold: 45 100% 70%;
+    --luxury-platinum: 210 20% 85%;
+    --luxury-dark: 222 47% 8%;
+    --luxury-darker: 222 50% 5%;
+    --luxury-glow: 45 100% 65%;
+    
+    /* Gradients */
+    --gradient-luxury: linear-gradient(135deg, hsl(var(--luxury-darker)), hsl(var(--luxury-dark)), hsl(222 30% 12%));
+    --gradient-gold: linear-gradient(135deg, hsl(var(--luxury-gold)), hsl(35 100% 60%));
+    --gradient-glass: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05));
+    
+    /* Shadows */
+    --shadow-luxury: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
+    --shadow-gold-glow: 0 0 30px hsl(var(--luxury-glow) / 0.3);
+    --shadow-inner-glow: inset 0 1px 0 rgba(255,255,255,0.1);
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
